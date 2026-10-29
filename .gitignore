@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model artifacts and raw data (avoid committing private/sensitive data)
+models/*
+!models/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated reports
+reports/figures/*
+!reports/figures/.gitkeep
